@@ -10,6 +10,10 @@ const accounts = {
             type:'string',
         }),
         defineField({
+            name:'providerType',
+            type:'string',
+        }),
+        defineField({
             name:'providerAccountId',
             type:'string',
         }),
